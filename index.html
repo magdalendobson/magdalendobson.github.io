@@ -1,9 +1,137 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>      
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
 
-<!-- this is a comment -->
+<html lang="en">
+<head>
+  <title>Magdalen Dobson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Navigation -->
+	<!-- <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+<!-- 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#">Projects</a></li>
+				  <li><a href="#publications">Publications</a></li> 
+				  <li><a href="#">CV</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav> --> -->
+  
+  <!-- Page Content -->
+    <div class="container">
+
+
+
+        <div class="row">
+
+        	    	            <!-- Contact Info on the Sidebar -->
+
+
+            <div class="col-md-4">
+
+            	<!-- Main Image -->
+                <img class="img-responsive" src="headshot.jfif" alt=""><br>
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Magdalen Dobson</b></div><br>
+                <p><b>mrdobson [at] cs [dot] cmu [dot] edu</b><br>
+                <p>Computer Science Department<br>
+                Carnegie Mellon University<br>
+                </p>
+                <dd><a href="https://dblp.org/pid/266/5590.html">DBLP</a></dd> 
+                <dd><a href="MagdalenCV.pdf">CV</a></dd> 
+            </div>
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                
+                
+                
+                <div style="margin-top:3%; text-align:justify;">                
+					<p>I am a fourth-year PhD student at Carnegie Mellon University. I am advised by <a href="http://www.cs.cmu.edu/~guyb/">Guy Blelloch</a> and supported by an <a href="https://www.nsfgrfp.org/">NSF GRFP Fellowship</a>.</p>
+					
+					<p>I am interested in designing parallel and concurrent algorithms for solving problems related to similarity search, information retrieval, and computing nearest neighbors, with a particular focus on similarity search in high dimensions. Much of my recent work can be found in the <a href="https://github.com/magdalendobson/ParlayANN/tree/main">ParlayANN</a> repository, a benchmark suite of high-dimensional nearest neighbor algorithms along with a set of useful tools for designing such algorithms.</p>
+					
+					<p>In Summer 2022, I interned with <a href="https://harsha-simhadri.org/">Harsha Vardhan Simhadri</a> at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a>. During my undergraduate studies at MIT, I benefited greatly from advice and mentoring from <a href="https://people.csail.mit.edu/rrw/">Ryan Williams</a>, <a href="https://math.mit.edu/~hrm/">Haynes Miller</a>, and <a href="https://math.mit.edu/~dspivak/">David Spivak</a>. </p>
+
+					<p> </p>
+                </div>
+
+
+                <strong>Preprints</strong><br/>
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="https://arxiv.org/abs/2305.04359">Scaling Graph-Based ANNS Algorithms to Billion-Size Datasets: A Comparative Analysis.</a> Magdalen Dobson, Zheqi Shen, Guy E. Blelloch, Laxman Dhulipala, Yan Gu, Harsha Vardhan Simhadri, and Yihan Sun.</li>
+                </ul>
+            
+                <strong>Published Papers</strong><br/>
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="https://arxiv.org/abs/2110.11836">The Geometry of Tree-Based Sorting</a>. Guy E. Blelloch and Magdalen Dobson. <br>
+
+                <i>To appear in the EATCS International Colloquium on Automata, Languages and Programming, ICALP 2023.</i> </li>
+                </ul>
+
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="https://arxiv.org/abs/2111.04182">Parallel Nearest Neighbors in Low Dimensions with Batch Updates</a>. Guy E. Blelloch and Magdalen Dobson. <br> <i>Proceedings of the Symposium on Algorithm Engineering and Experiments, ALENEX 2022. </i> </li>
+                </ul>
+
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="pbbsv2.pdf">Poster: The Problem-Based Benchmark Suite, V2</a>. Daniel Anderson, Guy E. Blelloch, Laxman Dhulipala, Magdalen Dobson, and Yihan Sun. <br> <i> Proceedings of the ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPoPP 2022. </i> </li>
+                </ul>
+
+                <ul>
+                <li class="paper" words="add, your, keywords, here"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/5543">Multiagent Evaluation Mechanisms.</a> Tal Alon, Magdalen Dobson, Ariel D. Procaccia, Inbal Talgam-Cohen, and Jamie Tucker-Folz. <br> <i> Proceedings of the AAAI Conference on Artificial Intelligence, AAAI 2020. </i> </li>
+                </ul>
+
+                <strong>Teaching</strong><br/>
+
+                <ul>
+                <li> <a href="https://www.cs.cmu.edu/afs/cs/Web/People/15451/index.html">15-451 Design and Analysis of Algorithms</a>, Fall 2023</li>
+                <li> <a href="https://www.cs.cmu.edu/~15455/index.html">15-455 Undergraduate Complexity Theory</a>, Spring 2022</li>
+                </ul>
+
+            </div> 
+
+
+            
+           
+           
+                
+                
+
+
+            
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>
